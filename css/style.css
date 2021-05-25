@@ -1,4 +1,3 @@
-/* fonts */
 *
 {
   margin: 0;
@@ -110,4 +109,35 @@ header.sticky .navigation li a
 header .navigation li a:hover
 {
   color: #F4A460;
+}
+
+@media (max-width: 991px)
+{
+  header, header.sticky
+  {
+    padding: 10px 20px;
+  }
+  header .navigation
+  {
+    display: none;
+  }
+  .menuToggle
+  {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: url("../img/menuicon.png");
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .menuToggle.active
+  {
+    background: url("../img/closeicon.png");
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
 }

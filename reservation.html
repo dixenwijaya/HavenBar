@@ -32,10 +32,10 @@
         <br/>
         <br/><br/>
         <form class="form">
-          <input type="number" name="person" placeholder="Number of Person" min="1" required>
-          <input type="date" name="date" required>
-          <input type="time" name="time" required>
-          <input type="submit" value="Book a Table" id="button">
+          <input type="number" id="org" name="person" placeholder="Number of Person" min="1" required>
+          <input type="date" id="tgl" name="date" required>
+          <input type="time" id="jam" name="time" required>
+          <input type="submit" onsubmit="promptSubmitReservation()" value="Book a Table" id="button">
         </form>
 
       </div>
@@ -98,5 +98,9 @@
   		</div>
   	</footer>
     <script type="text/javascript" src="js/stickynavbar.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/fancybox.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/wow.js"></script>
   </body>
 </html>
