@@ -27,8 +27,9 @@ $(document).ready(function(){
 });
 
 	//submitprompt init
+	var name = document.getElementById("nama").value;
 	function promptSubmitFeedback(){
-		alert("Thank you for your feedback about us.")
+		alert("Thank you " + nama + " for your feedback about us.");
 	}
 
 
@@ -36,5 +37,5 @@ $(document).ready(function(){
 	var date = document.getElementById("tgl").value;
 	var time = document.getElementById("jam").value;
 	function promptSubmitReservation(){
-		alert("A table for" + person + " person on " + date + "at" + time + " has been reserved for you.")
+		alert("A table for" + person + " person on " + date + "at" + time + " has been reserved for you.");
 	}
