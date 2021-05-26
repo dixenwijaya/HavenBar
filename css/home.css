@@ -83,12 +83,6 @@
 }
 
 /* Services */
-.services
-{
-  justify-content: space-between;
-  align-items: center;
-}
-
 .services .ul
 {
   margin-top: 90px;
