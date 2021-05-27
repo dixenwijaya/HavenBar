@@ -31,11 +31,11 @@
 
         <br/>
         <br/><br/>
-        <form class="form">
+        <form class="form" onsubmit="promptSubmitReservation()">
           <input type="number" name="person" placeholder="Number of Person" min="1" required>
-          <input type="date" name="date" required>
-          <input type="time" name="time" required>
-          <input type="submit" onsubmit="promptSubmitReservation()" value="Book a Table" id="button">
+          <input type="date" name="date" placeholder="mm/dd/yyyy" required>
+          <input type="time" name="time" placeholder="--:-- AM/PM" required>
+          <input type="submit" value="Book a Table" id="button">
         </form>
 
       </div>
@@ -83,7 +83,7 @@
     <footer>
   		<div class="wrapper">
   			<div class="rights">
-  				<p>All Rights Reserved | Developed By Dixen</p>
+  				<p>All Rights Reserved</p>
   			</div>
 
   			<nav>
